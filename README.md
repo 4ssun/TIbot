@@ -30,10 +30,10 @@ Podemos dividi-lo de forma literal a um robô. Imagine que ele tenha
 2. Tronco
 3. Pernas
 ![Tibot](tibot_img.PNG)
-###Cabeça
+### Cabeça
 - A cabeça é onde executa a primeira parte que irá originar o arquivo Excel com as RBS's do dia até aquele horário de execução, prepara as colunas que serão usadas para o tratamento do arquivo e já coloca no path que o Pandas irá em busca para começar a manipulação de *dataframes*.
 
-###Tronco
+### Tronco
 - O tronco é a definição das variáveis de botões e paths que serão utilizados pelo código desde a limpeza do arquivo Excel até a mudança de path do arquivo processado. A primeira atividade é a leitura do Pandas do arquivo originado do SAP que vem em .xls e transformá-lo em um *Dataframe* que será manipulado.
 >pd.read_html(sap_arquivo[1])
 >
@@ -54,3 +54,6 @@ def tratamento_email(usuario):
 E é chamado dentro do campo responsávell,realizando a execução da função no momento do preenchimento dos campos automaticamente.
 
 Ainda que ele também seja usado no primeiro Sharepoint, ele é indispensável de fato apenas no segundo, porém feito desde o primeiro por razões de limpeza de código e reaproveitamento de funções.
+
+## Pernas
+É a finalização dos processos, pegando aquele excel que foi tratado, processado e lançado nos Sharepoints e mover de diretório, sem antes anexar o que foi lançado na execução para um arquivo que sofre appends constantes ao final de cada execução, criando um histórico para comparação da próxima atividade não relançar RBS que já foram subidas no site.
