@@ -14,9 +14,9 @@ class Navigator():
 
     def __init__(self):
         chrome_options = webdriver.ChromeOptions()
-        prefs = {'download.default_directory' : 'C:\\Users\\administrator.PLANBRAZIL\\Music\\SAP'}
+        prefs = {'download.default_directory' : 'C:\\Users\\'}
         chrome_options.add_experimental_option('prefs', prefs)
-        driver = webdriver.Chrome(executable_path= "C:\\Users\\administrator.PLANBRAZIL\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.8\\chromedriver.exe")#self.
+        driver = webdriver.Chrome(executable_path= "C:\\Users\\")#self.
         self.driver = webdriver.Chrome(chrome_options=chrome_options)
         
 
