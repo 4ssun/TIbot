@@ -30,6 +30,7 @@ Podemos dividi-lo de forma literal a um robô. Imagine que ele tenha
 1. Cabeça
 2. Tronco
 3. Pernas
+
 ![Tibot](tibot_img.PNG)
 ### Cabeça
 - A cabeça é onde executa a primeira parte que irá originar o arquivo Excel com as RBS's do dia até aquele horário de execução, prepara as colunas que serão usadas para o tratamento do arquivo e já coloca no path que o Pandas irá em busca para começar a manipulação de *dataframes*.
