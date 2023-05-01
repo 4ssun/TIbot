@@ -1,5 +1,4 @@
 # *Tibot*
-Pick SAP's RBS and put into a Microsoft Sharepoint
 
 ## Objetivos
 Solução em automação de processos com Python,Selenium e Pandas para o setor administrativo gerenciar novas requisições de compras feitas no SAP. Essa parte da solução consiste no Webscraping para obtenção de dados que serão manipulados em formato de dataframe no Pandas, posteriormente serão enviados em dois Sharepoints onde:
